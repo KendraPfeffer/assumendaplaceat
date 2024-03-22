@@ -1,0 +1,55 @@
+{
+  "name": "assumendaplaceat",
+  "version": "1.8.0",
+  "description": "String parser combinators for TypeScript",
+  "files": [
+    "lib",
+    "es6"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KendraPfeffer/assumendaplaceat.git"
+  },
+  "author": "JerelCruickshank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KendraPfeffer/assumendaplaceat.git/issues"
+  },
+  "homepage": "https://github.com/KendraPfeffer/assumendaplaceat.git",
+  "peerDependencies": {
+    "fp-ts": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "@types/node": "7.0.4",
+    "docs-ts": "^0.3.0",
+    "dtslint": "^0.4.2",
+    "fp-ts": "^2.0.0",
+    "import-path-rewrite": "github:gcanti/import-path-rewrite",
+    "jest": "^24.8.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.0.1",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.5.2"
+  },
+  "tags": [
+    "typescript",
+    "parser-combinators",
+    "functional-programming",
+    "fp-ts"
+  ],
+  "keywords": [
+    "typescript",
+    "parser-combinators",
+    "functional-programming",
+    "fp-ts"
+  ],
+  "dependencies": {
+    "@babel/code-frame": "^7.0.0"
+  }
+}
